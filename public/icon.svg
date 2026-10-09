@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="128" fill="#14170f"/>
+  <rect x="24" y="24" width="464" height="464" rx="104" fill="#1b1f14" stroke="#2d3321" stroke-width="6"/>
+  <g transform="translate(136, 100) scale(10)" stroke="#c85718" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M9.5 2C7.5 2 5.5 3.2 5 5.5C4.6 6.9 5 8.2 5.8 9.2C5 10.3 5.2 12 6.2 13C7.1 13.9 8.2 14.5 9.5 15" />
+    <path d="M6.2 7.2C7 7.5 8 7 8.5 6.2" />
+    <path d="M6.5 10.5C7.3 10.5 8 11.2 8.5 12" />
+    <path d="M14.5 2C16.5 2 18.5 3.2 19 5.5C19.4 6.9 19 8.2 18.2 9.2C19 10.3 18.8 12 17.8 13C16.9 13.9 15.8 14.5 14.5 15" />
+    <path d="M17.8 7.2C17 7.5 16 7 15.5 6.2" />
+    <path d="M17.5 10.5C16.7 10.5 16 11.2 15.5 12" />
+    <path d="M12 3V15" stroke="#f5f6f0" stroke-dasharray="1 1.5" />
+    <path d="M10 6C11 6.5 13 6.5 14 6" stroke="#f5f6f0" />
+    <path d="M10 10C11 9.5 13 9.5 14 10" stroke="#f5f6f0" />
+    <path d="M9 16.5H15" stroke="#f5f6f0" />
+    <path d="M9.5 18.5H14.5" stroke="#f5f6f0" />
+    <path d="M10.5 20.5H13.5" stroke="#f5f6f0" />
+    <path d="M11 22H13" stroke="#f5f6f0" />
+  </g>
+  <text x="256" y="420" font-family="'JetBrains Mono', monospace" font-size="56" font-weight="800" fill="#ffffff" text-anchor="middle">k<tspan fill="#c85718">No</tspan></text>
+</svg>

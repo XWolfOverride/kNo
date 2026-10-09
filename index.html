@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="theme-color" content="#13160e" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="kNo" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <title>kNo - Almacén de Conocimiento</title>
+    <meta name="description" content="Aplicación para almacenar y clasificar información con categorías anidadas y autenticación de usuarios." />
+    <meta property="og:title" content="kNo - Almacén de Conocimiento" />
+    <meta property="og:description" content="Aplicación para almacenar y clasificar información con categorías anidadas y autenticación de usuarios." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="kNo - Almacén de Conocimiento" />
+    <meta name="twitter:description" content="Aplicación para almacenar y clasificar información con categorías anidadas y autenticación de usuarios." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#13160e] text-[#f5f6f0] antialiased font-['Plus_Jakarta_Sans',sans-serif]">
+    <div id="root"></div>
+    <script>
+      // Gracefully prevent HMR websocket disconnection errors when HMR is disabled in preview
+      window.addEventListener('unhandledrejection', function (e) {
+        if (e.reason && typeof e.reason.message === 'string' && e.reason.message.includes('WebSocket')) {
+          e.preventDefault();
+        }
+      });
+      window.addEventListener('error', function (e) {
+        if (e.message && e.message.includes('WebSocket')) {
+          e.preventDefault();
+        }
+      });
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

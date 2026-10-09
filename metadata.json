@@ -1,0 +1,6 @@
+{
+  "name": "kNo",
+  "description": "Aplicación para almacenar y clasificar información con categorías anidadas y autenticación de usuarios.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
